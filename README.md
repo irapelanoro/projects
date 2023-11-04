@@ -21,6 +21,24 @@ The baseline model's results were used to identify areas for improvement. Variou
 ## 6. Use Tensorflow (or PyTorch, JAX, ...) and Train a Sequence Model → Jupyter Notebook (projet_nlp_deeplearning)
 In this phase, deep learning models were employed to achieve better results. 
 
+
+Here is a table summarizing the performance of each model you implemented:
+
+| Model | Accuracy | Notes |
+| ----- | -------- | ----- |
+| Logistic Regression | 0.85 | The model had difficulty classifying negative sentiments |
+| SVM | 0.85 | Similar to the logistic regression model, the classic SVM also struggled to classify negative sentiments |
+| SVM with Oversampling | 1.0 | Perfect accuracy achieved, but there were concerns of overfitting |
+| LSTM (Deep Learning) | 0.80 | Initial LSTM model with a single LSTM layer achieved an accuracy of 0.80 |
+| LSTM with Oversampling (Deep learning)| 0.70 | Improved LSTM model with oversampling of the minority class resulted in an accuracy of 0.70, this time the model is able to classify the positive sentiment but also the negative one |
+
+It appears that while the oversampling techniques improved the model's ability to classify both positive and negative sentiments, there were challenges such as overfitting. The LSTM model with oversampled data achieved a slightly lower accuracy, suggesting the need for further experimentation and optimization to balance accuracy and generalizability.
+
+
+
+
+
+
 Sources:
 
 website HuggingFace 
