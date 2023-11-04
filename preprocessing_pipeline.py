@@ -17,7 +17,7 @@ from nltk.stem import PorterStemmer
 nltk.download('punkt')
 nltk.download('stopwords')
 
-# Utility functions for preprocessing
+#All the functions previously tested grouped here 
 def preprocess(text):
     # Convert text to lowercase
     text = text.lower()
