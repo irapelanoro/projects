@@ -18,8 +18,8 @@ A baseline model was trained after importing the preprocessing pipeline. This in
 ## 5. Improve on the Baseline → Same Jupyter  Notebook (projet-nlp - Baseline)
 The baseline model's results were used to identify areas for improvement. Various techniques, such as balancing classes through oversampling or subsampling, applying class weights, and conducting hyperparameter tuning via grid search, were explored to enhance the model's performance.
 
-## 6. Use Tensorflow (or PyTorch, JAX, ...) and Train a Sequence Model → Jupyter Notebook (projet_nlp_deeplearning)
-In this phase, deep learning models were employed to achieve better results. 
+## 6. Use Tensorflow (or PyTorch, JAX, ...) and Train a Sequence Model → Jupyter Notebook (projet_nlp_deeplearning_ionenantsoa)
+In this phase, deep learning models were employed to achieve better results. To do so you need to use google collab, it is better to use tensorflow otherwise you may have some issue to compute.
 
 
 Here is a table summarizing the performance of each model you implemented:
