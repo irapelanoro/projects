@@ -2,6 +2,20 @@
 
 Reviews are a valuable source of information that can greatly benefit marketing teams in their decision-making processes. Studying the sentiment of book reviews can help determine whether a book should be removed from sale or promoted further. This, in turn, can lead to increased sales if the analysis is conducted consistently.
 
+#Installation
+
+1.Clone the projects repository:
+https://github.com/irapelanoro/projects.git
+
+2.Install the dependencies:
+pip install -r requirements.txt
+
+3.Use Google collab for the deep learning project(if it does not work in Visual studio)
+Don't forget to import all the repository
+
+
+
+
 ## 1. Select a Dataset
 The dataset chosen for this project is the Amazon book review dataset, obtained from Kaggle. The specific dataset used focuses on Amazon book reviews and can be accessed at [this link](https://www.kaggle.com/datasets/tarkkaanko/amazon?rvi=1).
 Dataset : amazon_books_Data
